@@ -24,3 +24,14 @@ $recall = \frac{TP}{TP + FN}$
 
 ### gloVe Url
 https://www.kaggle.com/code/andreshg/nlp-glove-bert-tf-idf-lstm-explained/input
+
+
+
+# Results and Analysis 
+- Th metrics from the predictions for the test set indicates a F1 score of around 0.76, which implies a strong ability to correctly determine which tweets are true disasters and which are not. The overall accuaracy of the model is around 82%. 
+
+# Conclusion
+This was a deep dive into utilizing natural language processing and neural networks to build a twitter classification model. After submitting to the kaggle competition, I acheived a public score of .81152 from the predictions of the test tweets. This means the base model has predicted 81% accurate of the time. I can further imporve this model by the following:
+- Preprocessing the data in other ways/ techniques
+- Utilizing different word embeddings - I used **GloVe**, but there others such as Word2Vec, fastText
+- Hyperparameter Tuning- adjusting learning rate, batch sizes, and number of layers and units in each
