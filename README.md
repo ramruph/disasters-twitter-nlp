@@ -12,7 +12,7 @@ The dataset used in this project contains 10,000 tweets and we will utilize natu
 For the competition, I submit the evaluated F1 between the predicted and expected answers
 
 Formula:
-$ F_1 = 2 * \frac{precision * recall}{precision + recall} $
+$F_1 = 2 * \frac{precision * recall}{precision + recall}$
 
 Precision:
 $precision = \frac{TP}{TP + FP}$
