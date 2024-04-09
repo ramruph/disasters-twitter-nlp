@@ -22,10 +22,6 @@ $recall = \frac{TP}{TP + FN}$
 
 
 
-### gloVe Url
-https://www.kaggle.com/code/andreshg/nlp-glove-bert-tf-idf-lstm-explained/input
-
-
 
 # Results and Analysis 
 - Th metrics from the predictions for the test set indicates a F1 score of around 0.76, which implies a strong ability to correctly determine which tweets are true disasters and which are not. The overall accuaracy of the model is around 82%.
@@ -39,3 +35,9 @@ This was a deep dive into utilizing natural language processing and neural netwo
 - Hyperparameter Tuning- adjusting learning rate, batch sizes, and number of layers and units in each
 
 ![alt text](https://github.com/ramruph/disasters-twitter-nlp/blob/main/images/output2.png)
+
+
+
+
+### gloVe Url
+https://www.kaggle.com/code/andreshg/nlp-glove-bert-tf-idf-lstm-explained/input
